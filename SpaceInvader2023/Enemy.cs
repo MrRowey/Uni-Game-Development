@@ -6,12 +6,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-internal class Enemy
+class Enemy
 {
     public Texture2D texture;
     public Vector2 position = new Vector2(0,0);
     public Vector2 direction = new Vector2(0, 0);
     public Vector2 velocity = new Vector2(0, 0);
+
+    public int Health = 100;
+    public float HealthMulti = 0.1f;
+    public int WeaponDmg = 5;
+    public float WeaponDmgMulti = 1f;
+    
+    
+    
+    public Random rand = new Random();
+
 
     public Enemy(Texture2D texture)
     {

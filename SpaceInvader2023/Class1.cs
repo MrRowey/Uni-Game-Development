@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class PowerUps
+namespace SpaceInvader2023
 {
-
+    internal class Class1
+    {
+    }
 }

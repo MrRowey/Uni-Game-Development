@@ -14,7 +14,7 @@ class Player
     public int Health = 100;
     public int CurrentWave = 0;
     public int Score = 0;
-    public int[] weapon;
+    //public int[] weapon;
 
 
 
